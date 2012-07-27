@@ -14,8 +14,6 @@ If you prefer to learn by example, see the following source and result:
 * [Source](sample_content.html)
 * [Result](http://github.com/mojombo/github-flavored-markdown/issues/#issue/1)
 
-You can also use our [live javascript preview](http://github.github.com/github-flavored-markdown/preview.html) to see GFM in action.
-
 If you're interested in how we render Markdown files, you might want to check out [Redcarpet](https://github.com/tanoku/redcarpet), our Ruby interface to the [Sundown](https://www.github.com/tanoku/sundown) library.
 
 Differences from traditional Markdown
@@ -32,7 +30,7 @@ The next paragraph contains two phrases separated by a single newline character:
 
 becomes
 
-Roses are red  
+Roses are red
 Violets are blue
 
 ### Multiple underscores in words
@@ -44,7 +42,7 @@ It is not reasonable to italicize just _part_ of a word, especially when you're 
 
 becomes
 
-perform\_complicated\_task  
+perform\_complicated\_task
 do\_this\_and\_do\_that\_and\_another\_thing
 
 ### URL autolinking
