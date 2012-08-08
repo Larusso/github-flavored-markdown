@@ -14,7 +14,7 @@ If you prefer to learn by example, see the following source and result:
 * [Source](sample_content.html)
 * [Result](http://github.com/mojombo/github-flavored-markdown/issues/#issue/1)
 
-If you're interested in how we render Markdown files, you might want to check out [Redcarpet](https://github.com/tanoku/redcarpet), our Ruby interface to the [Sundown](https://www.github.com/tanoku/sundown) library.
+If you're interested in how we render Markdown files, you might want to check out [Redcarpet](https://github.com/vmg/redcarpet), our Ruby interface to the [Sundown](https://www.github.com/vmg/sundown) library.
 
 Differences from traditional Markdown
 -------------------------------------
