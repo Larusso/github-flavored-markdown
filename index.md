@@ -30,7 +30,7 @@ The next paragraph contains two phrases separated by a single newline character:
 
 becomes
 
-Roses are red
+Roses are red  
 Violets are blue
 
 ### Multiple underscores in words
