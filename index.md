@@ -91,5 +91,6 @@ Code
 ----
 
 The newline and underscore modification code can be seen below. If you find a bug in the rendering, we'd love to hear about it.
+Browse through open Issues and report new Issues on the [GitHub-flavored Markdown Issues page](https://github.com/github/github-flavored-markdown/issues).
 
 <script src="http://gist.github.com/118964.js"></script>
