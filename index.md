@@ -67,6 +67,8 @@ We take code blocks a step further and add syntax highlighting if you request it
 A bit of the GitHub spice
 -------------------------
 
+### References
+
 In addition to the changes in the previous section, certain references are auto-linked:
 
     * SHA: be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2
@@ -86,6 +88,21 @@ becomes
 <li>User/#Num: <a href="http://github.com/mojombo/github-flavored-markdown/issues/#issue/1">mojombo#1</a></li>
 <li>User/Project#Num: <a href="http://github.com/mojombo/god/issues/#issue/1">mojombo/god#1</a></li>
 </ul>
+
+### Task Lists
+
+Further, lists can be turned into [Task Lists](https://github.com/blog/1375-task-lists-in-gfm-issues-pulls-comments) by prefacing list items with `[ ]` or `[x]` (incomplete or complete, respectively).
+
+```
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
+```
+
+This feature is enabled for **Issue and Pull Request descriptions and comments**. In those contexts, task lists will be rendered with checkboxes that you can check on and off.
+
+See the [Task Lists blog post](https://github.com/blog/1375-task-lists-in-gfm-issues-pulls-comments) for more details.
 
 Code
 ----
