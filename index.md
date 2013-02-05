@@ -93,12 +93,10 @@ becomes
 
 Further, lists can be turned into [Task Lists](https://github.com/blog/1375-task-lists-in-gfm-issues-pulls-comments) by prefacing list items with `[ ]` or `[x]` (incomplete or complete, respectively).
 
-```
-- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
-- [x] list syntax required (any unordered or ordered list supported)
-- [x] this is a complete item
-- [ ] this is an incomplete item
-```
+    - [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+    - [x] list syntax required (any unordered or ordered list supported)
+    - [x] this is a complete item
+    - [ ] this is an incomplete item
 
 This feature is enabled for **Issue and Pull Request descriptions and comments**. In those contexts, task lists will be rendered with checkboxes that you can check on and off.
 
